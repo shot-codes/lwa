@@ -2,10 +2,10 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@sveltejs/adapter-auto':
-    specifier: ^2.0.0
+    specifier: ^2.1.0
     version: 2.1.0(@sveltejs/kit@1.24.0)
   '@sveltejs/kit':
-    specifier: ^1.20.4
+    specifier: ^1.24.0
     version: 1.24.0(svelte@4.2.0)(vite@4.4.9)
   '@theatre/core':
     specifier: ^0.7.0
@@ -17,46 +17,46 @@ devDependencies:
     specifier: ^6.0.6
     version: 6.0.6(svelte@4.2.0)(three@0.156.0)
   '@threlte/extras':
-    specifier: ^5.4.1
-    version: 5.4.1(svelte@4.2.0)(three@0.156.0)
+    specifier: ^5.6.2
+    version: 5.6.2(svelte@4.2.0)(three@0.156.0)
   '@threlte/theatre':
     specifier: ^2.1.1
-    version: 2.1.1(@theatre/core@0.7.0)(@theatre/studio@0.7.0)(@threlte/core@6.0.6)(@threlte/extras@5.4.1)(svelte@4.2.0)(three@0.156.0)
+    version: 2.1.1(@theatre/core@0.7.0)(@theatre/studio@0.7.0)(@threlte/core@6.0.6)(@threlte/extras@5.6.2)(svelte@4.2.0)(three@0.156.0)
   '@types/three':
     specifier: ^0.155.1
     version: 0.155.1
   '@typescript-eslint/eslint-plugin':
-    specifier: ^5.45.0
+    specifier: ^5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.48.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^5.45.0
+    specifier: ^5.62.0
     version: 5.62.0(eslint@8.48.0)(typescript@5.2.2)
   autoprefixer:
     specifier: ^10.4.15
     version: 10.4.15(postcss@8.4.29)
   eslint:
-    specifier: ^8.28.0
+    specifier: ^8.48.0
     version: 8.48.0
   eslint-config-prettier:
-    specifier: ^8.5.0
+    specifier: ^8.10.0
     version: 8.10.0(eslint@8.48.0)
   eslint-plugin-svelte:
-    specifier: ^2.30.0
+    specifier: ^2.33.0
     version: 2.33.0(eslint@8.48.0)(svelte@4.2.0)
   postcss:
     specifier: ^8.4.29
     version: 8.4.29
   prettier:
-    specifier: ^2.8.0
+    specifier: ^2.8.8
     version: 2.8.8
   prettier-plugin-svelte:
     specifier: ^2.10.1
     version: 2.10.1(prettier@2.8.8)(svelte@4.2.0)
   svelte:
-    specifier: ^4.0.5
+    specifier: ^4.2.0
     version: 4.2.0
   svelte-check:
-    specifier: ^3.4.3
+    specifier: ^3.5.1
     version: 3.5.1(postcss@8.4.29)(svelte@4.2.0)
   tailwindcss:
     specifier: ^3.3.3
@@ -65,13 +65,13 @@ devDependencies:
     specifier: ^0.156.0
     version: 0.156.0
   tslib:
-    specifier: ^2.4.1
+    specifier: ^2.6.2
     version: 2.6.2
   typescript:
-    specifier: ^5.0.0
+    specifier: ^5.2.2
     version: 5.2.2
   vite:
-    specifier: ^4.4.2
+    specifier: ^4.4.9
     version: 4.4.9
 
 packages:
@@ -508,8 +508,8 @@ packages:
       three: 0.156.0
     dev: true
 
-  /@threlte/extras@5.4.1(svelte@4.2.0)(three@0.156.0):
-    resolution: {integrity: sha512-aoA67Pkzyw+TAvKSDuGtSi8m6AC+mmLduZQKaWwd0y/Zx+24d/AHpnLqyA5uRK/mCVbxC0D/3Li6+fPBKHJa3g==}
+  /@threlte/extras@5.6.2(svelte@4.2.0)(three@0.156.0):
+    resolution: {integrity: sha512-7VDUtAEji3w0mlmgLwidKCnRwgD9HFaBV4INa4M1oZpXPToXYr4L1wu8agsCSr79uag6dE8whQ9tJ8qH77OzUQ==}
     peerDependencies:
       svelte: '>=4'
       three: '>=0.133'
@@ -520,7 +520,7 @@ packages:
       troika-three-text: 0.47.2(three@0.156.0)
     dev: true
 
-  /@threlte/theatre@2.1.1(@theatre/core@0.7.0)(@theatre/studio@0.7.0)(@threlte/core@6.0.6)(@threlte/extras@5.4.1)(svelte@4.2.0)(three@0.156.0):
+  /@threlte/theatre@2.1.1(@theatre/core@0.7.0)(@theatre/studio@0.7.0)(@threlte/core@6.0.6)(@threlte/extras@5.6.2)(svelte@4.2.0)(three@0.156.0):
     resolution: {integrity: sha512-TjWjVgmZSWxLoo/KLC3KHEay4kDdh13yzESJxiu7+z1RT2ODJb4Edhuw7Ntz3fbAk/qRV5OJ79kPaEpOl/ahxQ==}
     peerDependencies:
       '@theatre/core': '>=0.6'
@@ -533,7 +533,7 @@ packages:
       '@theatre/core': 0.7.0
       '@theatre/studio': 0.7.0(@theatre/core@0.7.0)
       '@threlte/core': 6.0.6(svelte@4.2.0)(three@0.156.0)
-      '@threlte/extras': 5.4.1(svelte@4.2.0)(three@0.156.0)
+      '@threlte/extras': 5.6.2(svelte@4.2.0)(three@0.156.0)
       svelte: 4.2.0
       three: 0.156.0
     dev: true
