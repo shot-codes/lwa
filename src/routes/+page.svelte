@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ExteriorScene from '$lib/components/ExteriorScene.svelte';
 	import InteriorScene from '$lib/components/InteriorScene.svelte';
+	import { World } from '@threlte/rapier';
 	// import { Studio } from '@threlte/theatre';
 	// import { dev } from '$app/environment';
 	import { Canvas } from '@threlte/core';
@@ -39,7 +40,9 @@
 {#if !showExterior}
 	<div class="h-screen w-screen">
 		<Canvas>
-			<InteriorScene />
+			<World>
+				<InteriorScene />
+			</World>
 		</Canvas>
 	</div>
 {/if}
